@@ -1,5 +1,5 @@
-layout: stacked
-style: dark
+layout: sidebar
+style: light
 
 plugins:
   - jekyll-octicons
@@ -9,12 +9,11 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+  - scope:
+      path: '' # an empty string here means all files in the project
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
 
 projects:
   sort_by: pushed
@@ -47,26 +46,26 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: Laravel
-    web_url: https://github.com/topics/laravel
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/laravel/laravel.png
-
-  - name: Lua
-    web_url: https://github.com/topics/lua
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/lua/lua.png
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
 
   - name: Rails
     web_url: https://github.com/topics/rails
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png
 
+  - name: WebAssembly
+    web_url: https://github.com/topics/web-assembly
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/web-assembly/web-assembly.png
+
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
-  - name: R
-    web_url: https://github.com/topics/r
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png
+  - name: Spring Boot
+    web_url: https://github.com/topics/spring-boot
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
 
-  - name: Scala
-    web_url: https://github.com/topics/scala
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scala/scala.png
+  - name: Elixir
+    web_url: https://github.com/topics/elixir
+    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
